@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Les 04: Oefening 3</title>
+    <meta name="author" content="Niels Mondelaers" />
+  </head>
+  <body>
+    <form action="verzend.php" method="get"></form>
+
+    <fieldset>
+      <legend>Geslacht</legend>
+      <div>
+        <input type="radio" id="man" name="geslacht" value="man" />
+        <label for="man">Man </label>
+        <input type="radio" id="vrouw" name="geslacht" value="vrouw" />
+        <label for="vrouw">Vrouw </label>
+        <input type="radio" id="ander" name="geslacht" value="ander" />
+        <label for="ander">Ander </label>
+      </div>
+    </fieldset>
+    <br />
+    <fieldset style="width: 50%">
+      <legend>Kleur ogen</legend>
+      <div>
+        <input type="radio" id="bruin" name="kleur" value="bruin" />
+        <label for="bruin">Bruin </label>
+        <br />
+        <input type="radio" id="groen" name="kleur" value="groen" />
+        <label for="groen">Groen </label>
+        <br />
+        <input type="radio" id="blauw" name="kleur" value="blauw" />
+        <label for="blauw">Blauw </label>
+        <br />
+        <input type="radio" id="grijs" name="kleur" value="grijs" />
+        <label for="grijs">Grijs </label>
+      </div>
+    </fieldset>
+    <br />
+    <div><input type="submit" value="Registreren" /></div>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Les 4: Oefening 04</title>
+    <meta name="author" content="Niels Mondelaers" />
+  </head>
+  <body>
+    <form action="registreren.php" method="post">
+      <div>
+        <label for="voornaam">Voornaam: </label>
+        <input type="text" name="voornaam" id="voornaam" required />
+      </div>
+      <br />
+      <div>
+        <label for="familienaam">Familienaam: </label>
+        <input type="text" name="familienaam" id="familienaam" required />
+      </div>
+      <br />
+      <div>
+        <label for="kies">Kies een auto: </label>
+        <select name="kies" id="kies">
+          <option value="ford">Ford</option>
+          <option value="peugeot">Peugeot</option>
+          <option value="volvo">Volvo</option>
+          <option value="skoda">Skoda</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div>
+      <br />
+      <div><input type="submit" value="Registreren" /></div>
+    </form>
+  </body>
+</html>

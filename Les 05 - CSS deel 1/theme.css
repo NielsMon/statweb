@@ -1,0 +1,48 @@
+* {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: red;
+}
+
+#alineaTwee {
+  text-align: right;
+  color: aqua;
+}
+
+.alineaDrie {
+  text-align: left;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+h1,
+h2,
+p {
+  padding-bottom: 5%;
+  background-color: bisque;
+}
+
+/* Vertical menu*/
+.verticalMenu {
+  width: 300px;
+}
+
+.verticalMenu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.verticalMenu a:hover {
+  background-color: #ccc;
+}
+
+.verticalMenu a:active {
+  background-color: aquamarine;
+  color: white;
+}

@@ -1,2 +1,0 @@
-# statweb
-Eerste opdracht

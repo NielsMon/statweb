@@ -1,0 +1,51 @@
+body {
+  color: #31493c;
+  background-color: #e8f1f2;
+}
+
+header {
+  width: 100%;
+  border: 15px solid purple;
+  padding: 50px;
+  margin: 20px;
+  vertical-align: middle;
+}
+
+.header_title {
+  float: left;
+  vertical-align: middle;
+}
+
+.header_navigation {
+  float: left;
+  vertical-align: middle;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+}
+
+li,
+img {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: aqua;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.vertical_menu {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}

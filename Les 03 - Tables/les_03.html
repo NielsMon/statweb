@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Les 03 - Tables</title>
+  </head>
+  <body>
+    <!-- cursus -->
+    <h1>Tabel</h1>
+    <table border="5" width="50%" cellspacing="10" cellpadding="5">
+      <tr>
+        <th>Naam</th>
+        <th>E-mailadres</th>
+      </tr>
+      <tr>
+        <td>Niels Mondelaers</td>
+        <td>mondelaers.niels@telenet.be</td>
+      </tr>
+    </table>
+
+    <!-- spatie-->
+    <p></p>
+    <!--Opdracht 1-->
+    <h2>Opdracht 2</h2>
+    <table border="4">
+      <tr>
+        <td>cel 1</td>
+        <td colspan="2">Samengevoegd</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Samengevoegd</td>
+        <td>Cel 2</td>
+        <td>Cel 3</td>
+      </tr>
+      <tr>
+        <td>Cel 4</td>
+        <td>Cel 5</td>
+      </tr>
+    </table>
+
+    <!-- ook een spatie-->
+    <br />
+    <h2>Opdracht 2</h2>
+    <table border="1">
+      <tr>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td colspan="2" rowspan="2"></td>
+      </tr>
+      <tr>
+        <td>31</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <h2>Opdracht 3</h2>
+    <table border="1" cellspacing="10" cellpadding="5">
+      <tr>
+        <th>Voornaam</th>
+        <td>Arthur</td>
+      </tr>
+      <tr>
+        <th>Familienaam</th>
+        <td>Peeters</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Talenkennis</th>
+        <td>
+          <table border="4">
+            <tr>
+              <th>Nederlands</th>
+              <th>Frans</th>
+              <th>Engels</th>
+            </tr>
+            <tr>
+              <td>moedertaal</td>
+              <td>goed</td>
+              <td>zeer goed</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <br />
+    <h2>Toegankelijke websites</h2>
+    <table border="1" summary="overzicht van stripverhalen">
+      <caption align="bottom">
+        Tabel 1: Stripverhalen
+      </caption>
+      <tr>
+        <th>Oude strips</th>
+        <th>Recente strips</th>
+      </tr>
+      <tr>
+        <td>Suske en Wiske</td>
+        <td>Spring</td>
+      </tr>
+      <tr>
+        <td>Jommeke</td>
+        <td>Basta</td>
+      </tr>
+    </table>
+  </body>
+</html>

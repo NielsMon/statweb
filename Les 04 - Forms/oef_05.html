@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Les 4: Oefening 05</title>
+    <meta name="author" content="Niels Mondelaers" />
+  </head>
+  <body>
+    <form action="registreren.php" method="get">
+      <div>
+        <label for="voornaam">Voornaam: </label>
+        <input type="text" name="voornaam" id="voornaam" required />
+      </div>
+      <br />
+      <div>
+        <label for="familienaam">Familienaam: </label>
+        <input type="text" name="familienaam" id="familienaam" required />
+      </div>
+      <br />
+      <div>
+        <label for="provincie">Provincie: </label>
+        <select name="provincie" id="kies">
+          <option value="antwerpen">Antwerpen</option>
+          <option value="limburg">Limburg</option>
+          <option value="vlBrabant">Vlaams Brabant</option>
+          <option value="frBrabant">Frans Brabant</option>
+          <option value="oostvlaanderen">Oost Vlaanderen</option>
+          <option value="westVlaanderen">West Vlaanderen</option>
+          <option value="wallonie">Wallonië</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <fieldset>
+          <legend>Geslacht</legend>
+          <div>
+            <label for="man">Man</label>
+            <input type="radio" name="geslacht" id="man" value="man" />
+            <label for="vrouw">Vrouw</label>
+            <input type="radio" name="geslacht" id="vrouw" value="vrouw" />
+            <label for="ander">Ander</label>
+            <input type="radio" name="geslacht" id="ander" value="ander" />
+          </div>
+        </fieldset>
+      </div>
+      <br />
+      <div>
+        <label for="foto">Foto</label>
+        <input type="file" />
+      </div>
+      <br />
+      <div>
+        <label for="akkoord">Ik ga akkoord met de algemene voorwaarden </label>
+        <input type="checkbox" name="akkoord" id="akkoord" value="ja" />
+      </div>
+      <br />
+      <div><input type="submit" value="Registreren" /></div>
+    </form>
+  </body>
+</html>
