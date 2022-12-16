@@ -30,8 +30,18 @@
   /* border: 2px solid; */
 }
 
+.card {
+  text-align: left;
+  width: 230px;
+  height: 550px;
+}
+
 .name {
-  font-weight: bold;
+  font-weight: 100;
   font-size: 50px;
   padding: 0px;
+}
+
+.align-left {
+  text-align: left;
 }
