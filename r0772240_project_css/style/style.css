@@ -45,3 +45,19 @@
 .align-left {
   text-align: left;
 }
+
+.center {
+  text-align: center;
+}
+
+nav {
+  /*om de navigatie steeds bovenop te plaatsen*/
+  z-index: 1;
+}
+
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgb(98, 103, 98);
+  --bs-accordion-active-color: white;
+  --bs-accordion-active-bg: rgb(98, 103, 98);
+  --bs-accordion-icon-active-color: white;
+}
