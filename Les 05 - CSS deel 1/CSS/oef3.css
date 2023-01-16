@@ -1,7 +1,18 @@
 ol {
-  background-color: coral;
+  background-color: rgb(196, 99, 64);
+  padding: 20px;
 }
 
 li {
-  background-color: crimson;
+  background-color: rgb(235, 165, 135);
+  padding: 10px;
+}
+
+ul {
+  background-color: rgb(21, 21, 233);
+  padding: 20px;
+}
+
+ul li {
+  background-color: rgb(148, 148, 234);
 }

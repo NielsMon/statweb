@@ -1,0 +1,29 @@
+* {
+  font-weight: bold;
+}
+
+div {
+  padding: 10px;
+}
+
+input {
+  background-color: green;
+}
+
+fieldset {
+  border-color: green;
+  border-radius: 25px;
+}
+
+select {
+  background-color: green;
+  color: white;
+}
+
+.foto {
+  background-color: red;
+}
+
+.button {
+  width: 200px;
+}
