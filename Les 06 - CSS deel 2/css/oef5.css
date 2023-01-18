@@ -1,0 +1,43 @@
+html {
+  background-color: grey;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.navigation {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  height: 500px;
+}
+
+.content {
+  width: 80%;
+  height: 500px;
+  padding: 5px;
+  margin: auto;
+  background-color: white;
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
